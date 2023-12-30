@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imgs/imgs/113.png" type="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+<!-- !start navbar -->
+    <nav class="navbar navbar-expand-lg  my-nav" id="navbar-example" > 
+        <div class="container">
+          <div class="brand">
+
+                <div class="img">
+                <img src="imgs/imgs/logo2x.png" alt="logo" width="64" height="38" class="logo"/>
+                </div>
+                   <div class="left">
+                <h1 class="site-title">Weather</h1>
+                <small class="site-desc">tagline goes here</small>
+                    </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa-solid fa-bars text-white"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav pe-5 me-3">
+              <li class="nav-item">
+                <a class="nav-link active  mx-3" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  mx-3" href="/">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  mx-3" href="/">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  mx-3" href="/">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  mx-3" href="html/contact.html">Contact</a>
+              </li>
+              
+          </div>
+        </div>
+      </div>
+    </nav>
+<!--! end navbar  -->
+
+<!--& start content  -->
+    <div class="hero">
+        <div class="container">
+            <form class="find-location">
+                <input type="text" placeholder="Find your location..." id="search">
+                <input type="button" value="Find" id="submit">
+            </form>
+
+        </div>
+    </div>
+    <div class="forecast-table">
+        <div class="container">
+            <div class="forecast-container" id="forecast"><div class="today forecast">
+                  <div class="forecast-header" id="today">
+                          <div class="day">Saturday</div>
+                             <div class=" date">30December</div>
+                    </div> 
+                         <div class="forecast-content" id="current">
+                             <div class="location">Cairo</div>
+                                     <div class="degree">
+                        <div class="num">14<sup>o</sup>C 
+                          <div class="forecast-icon">
+                            <i class="fa-solid fa-cloud-moon display-5"></i>
+                  </div>
+                        </div>
+
+                           	
+
+                                    </div>
+                              <div class="custom">Mist</div>
+                                 <span> <i class="fa-solid fa-umbrella"></i>20%</span>
+                                 <span><i class="fa-solid fa-wind"></i>18km/h</span>
+                              <span><i class="fa-solid fa-compass"></i>East</span>
+                        </div>
+                      </div>	<div class="forecast">
+                       <div class="forecast-header">
+                                 <div class="day">Sunday</div>
+                                 </div>
+                    <div class="forecast-content">
+                           <div class="forecast-icon">
+                                      <img src="imgs/imgs/176.png" alt="" width="48">
+                                </div>
+                         <div class="degree">21.6<sup>o</sup>C</div>
+                                  <small>14.3<sup>o</sup></small>
+                                     <div class="custom">Patchy rain possible</div>
+                     </div>
+                                          </div>	<div class="forecast">
+                            <div class="forecast-header">
+                                   <div class="day">Monday</div>
+                                             </div> 
+                                             <div class="forecast-content">
+                                                     <div class="forecast-icon">
+                                              <img src="imgs/imgs/113.png" alt="" width="48">
+                                                    </div>
+                                             <div class="degree">21.2<sup>o</sup>C</div>
+                                               <small>13.7<sup>o</sup></small>
+                                              <div class="custom">Sunny</div>
+                                                     </div>
+                                    </div>
+                                </div>
+                           </div>
+    </div>
+    
+<!--& end content  -->
+<!--? start footer  -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <form action="#" class="subscribe-form">
+                    <input type="text" placeholder="Enter your email to subscribe...">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+            <div class="col-md-3 col-md-offset-1 m-2">
+                <div class="social-links">
+                    <a href="/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="/"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="/"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+</footer>
+<!--? end footer  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
